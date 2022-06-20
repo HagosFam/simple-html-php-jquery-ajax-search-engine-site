@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo for search engine</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <style>
+      ol {
+  background: #ff9999;
+  padding: 20px;
+}
+
+ul {
+  background: #3399ff;
+  padding: 20px;
+}
+
+ol li {
+  background: #ffe5e5;
+  color: darkred;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
+    </style>
+   
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Unnamed Search Engine</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    <section>
+        <h1 class="title"> Search Comments here</h1>
+        <br>
+        <form action="" method="post">
+            <div class="form-group col-md-6">
+              <input class="form-control" placeholder="Search" id="search-input" autocomplete="off" onkeyup="showSuggestions(this.value)"  type="text" >
+            </div>
+          </form>
+            <br>
+        <div class="col-md-6">
+        <ul id="results">
+          <!-- the list goes here -->
+        </ul> 
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
