@@ -1,7 +1,7 @@
 steps to run the project
 
 1) you have to have wamp/ xamp server
-2) create project folder and clone this project to your www folder
+2) clone this project to your www folder
 3) run your server and go to localhost
 4) create virtual host for your cloned folder
 5) reload your localhost and click your newly created virtual host
